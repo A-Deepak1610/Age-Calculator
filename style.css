@@ -6,11 +6,9 @@
     align-items: center;
 }
 .con{
-    border-radius: 1px;
-    border-color: black;
-    border-style: solid;
     width: 40%;     
-    height: 40vh;  
+    height: 45vh;
+    border: solid black 1px ;
 }
 body {
     background: linear-gradient(112deg, rgb(244, 115, 194) 0%, rgb(207, 228, 86)50%, rgba(244, 115, 194) 100%);
