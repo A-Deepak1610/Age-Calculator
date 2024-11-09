@@ -1,19 +1,48 @@
 #cointainer{
     display:flex;
     flex-direction: column;
+    font-family: "Lato", sans-serif;
     justify-content: center;
-    
     align-items: center;
 }
 .con{
     border-radius: 1px;
     border-color: black;
     border-style: solid;
-    width: 40%;
-    height:0% ;        
+    width: 40%;     
+    height: 40vh;  
 }
-body{
+body {
+    background: linear-gradient(112deg, rgb(244, 115, 194) 0%, rgb(207, 228, 86)50%, rgba(244, 115, 194) 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh; 
+    margin: 0; 
+}
+#agecalc{
+    width:100px ;
+    height:30px ;
+    background-color: rgb(125, 125, 248);
+    color: white;
+    border-radius: 5px;
+}
+#date{
+    width:250px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+p{
+    font-size: 25px;
+}
+#out{
+    font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:100;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
 }
